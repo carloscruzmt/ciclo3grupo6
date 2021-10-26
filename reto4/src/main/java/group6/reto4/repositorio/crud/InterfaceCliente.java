@@ -1,10 +1,13 @@
 package group6.reto4.repositorio.crud;
 
 
+import group6.reto4.modelo.Cliente;
+import org.springframework.data.repository.CrudRepository;
+
 /**
- *
- * @author PosYo
+ * interface crud cliente
+ * @author grupo 6
  */
-public interface InterfaceCliente  {
+public interface InterfaceCliente extends CrudRepository<Cliente, Integer> {
     
 }
