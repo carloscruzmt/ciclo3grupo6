@@ -1,9 +1,12 @@
 package group6.reto4.repositorio.crud;
 
+import group6.reto4.modelo.Categoria;
+import org.springframework.data.repository.CrudRepository;
+
 /**
- *
- * @author Grupo 6
+ * interface crud categoria
+ * @author grupo 6
  */
-public interface InterfaceCategoria  {
+public interface InterfaceCategoria extends CrudRepository<Categoria, Integer> {
     
 }
